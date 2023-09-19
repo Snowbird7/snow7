@@ -1,0 +1,59 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Add a background color to the whole page */
+  body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #50b3a2;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  /* Style the navigation links */
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Style the projects section */
+  #projects {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  /* Style each project */
+  .project {
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .project img {
+    max-width: 100%;
+  }
+  
+  .project h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  .project a {
+    text-decoration: none;
+    color: #50b3a2;
+  }
+  
